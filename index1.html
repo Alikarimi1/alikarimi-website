@@ -1,0 +1,796 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawid Ali </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scipt.js"></script>
+
+</head>
+<body> -->
+
+
+
+
+
+
+
+    
+    <!-- <div class="container">
+       
+            <nav>
+                <div class="logo">
+                    <h1>ALI STUDIO DESIGN</h1>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="#"> Home</a>
+                            <a href="projects.html">Projects</a>
+                            <a href="#">Being Sensitive</a>
+                            <a href="#">Studio</a>
+                            <a href="slider.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
+    </div>
+
+ -->
+
+
+
+
+
+
+    <!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Rocker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Grey+Qo&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Grey+Qo&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+} */
+
+/* Center website */
+.main {
+    width: 100%;
+    height: 100vh;
+}
+/* 
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+} */
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/images.webp);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: fixed;
+}
+.logo h1{ 
+    color: white;
+    font-family: "New Rocker", system-ui;
+    font-weight:100;
+    font-style: normal;
+    font-size: medium;
+    margin-top: 10px;
+}
+.links{
+    /* display: flex;
+    margin-left: 37%; */
+    margin-top: 10px;
+}
+.links ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.5s;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+}
+.links ul li {
+    list-style-type: none;
+}
+.links ul li a:hover {
+    color: black;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  margin: 20px;
+}
+.btn.active {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: none;
+  width: 140px;
+  margin-left: 13px;
+
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <h1>ALI STUDIO DESIGN</h1>
+      </div>
+      <div class="links">
+          <ul>
+              <li>
+                  <a href="#"> Home</a>
+                  <a href="projects.html">Projects</a>
+                  <a href="senstive.html">Being Sensitive</a>
+                  <a href="team.html">Studio</a>
+                  <a href="Contact.html">Contact</a>
+              </li>
+          </ul>
+      </div>
+      </div>
+
+    
+    </div>
+
+
+
+<h2>PROJECTS</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> PRIVATE</button>
+  <button class="btn" onclick="filterSelection('cars')"> House</button>
+  <button class="btn" onclick="filterSelection('people')"> Other</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <a href="project-1.html">
+      <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_01.jpg" alt="Mountains" style="width:100%">
+      </a>
+      <h4>Project 1</h4>
+      <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <a href="project-1.html">
+    <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_02.jpg" alt="Lights" style="width:100%">
+      </a>
+    <h4>Project 2</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <a href="project-1.html">
+    <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_03.jpg" alt="Nature" style="width:100%">
+      </a>
+    <h4>Project 3</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <a href="project-1.html">
+      <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_04.jpg" alt="Car" style="width:100%">
+      </a>
+      <h4>Project 4</h4>
+      <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <a href="project-1.html">
+    <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_05.jpg" alt="Car" style="width:100%">
+      </a>
+    <h4>Project 5</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <a href="project-1.html">
+    <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_06.jpg" alt="Car" style="width:100%">
+      </a>
+    <h4>Project 6</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <a href="project-1.html">
+      <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_07.jpg" alt="Car" style="width:100%">
+      </a>
+      <h4>Project 7</h4>
+      <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <a href="project-1.html">
+        <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_08.jpg" alt="Car" style="width:100%">
+      </a>
+    <h4>Project 8</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <a href="projects.html">
+    <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_02.jpg" alt="Car" style="width:100%">
+      </a>
+    <h4>Project 9</h4>
+    <p>Private Residences</p>
+    </div>
+  </div>
+  <!-- <div class="column people"></div>
+    <div class="content">
+        <a href="projects.html">
+            <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_02.jpg" alt="Car" style="width:100%">
+        </a>
+        <h4>Project 9</h4>
+        <p>Private Residences</p>
+    </div> -->
+</div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">ALI Design Studio</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      3 Valencia CCT Cranbourne VIC 3977. 0466 835 311<br>
+          
+      <a class="footer__btn" href="mailto:karimi.aa202@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        <li>
+          <a href="#">Print</a>
+        </li>
+            
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Hardware Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Software Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+        
+        <li>
+          <a href="#">Automation</a>
+        </li>
+        
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        
+        <li>
+          <a href="#">IoT</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2024 Ali Design Studio. All rights reserved.</p>
+    
+    <div class="legal__links">
+   
+    </div>
+  </div>
+</footer>
+
+
+<style>
+  *, *:before, *:after {
+box-sizing: border-box;
+}
+
+.footer {
+  font-family: acumin-pro, system-ui, sans-serif;
+display: flex;
+flex-flow: row wrap;
+padding: 30px 30px 20px 30px;
+color: #2f2f2f;
+background-color: #fff;
+border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+.footer__addr {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+.footer__logo {
+font-family: 'Pacifico', cursive;
+font-weight: 400;
+text-transform: lowercase;
+font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+margin-top: 1.3em;
+font-size: 15px;
+font-weight: 400;
+}
+
+.nav__title {
+font-weight: 400;
+font-size: 15px;
+}
+
+.footer address {
+font-style: normal;
+color: #999;
+}
+
+.footer__btn {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 36px;
+max-width: max-content;
+background-color: rgb(33, 33, 33, 0.07);
+border-radius: 100px;
+color: #2f2f2f;
+line-height: 0;
+margin: 0.6em 0;
+font-size: 1rem;
+padding: 0 1.3em;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.footer__nav {
+display: flex;
+flex-flow: row wrap;
+}
+
+.footer__nav > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.nav__ul a {
+color: #999;
+}
+
+.nav__ul--extra {
+column-count: 2;
+column-gap: 1.25em;
+}
+
+.legal {
+display: flex;
+flex-wrap: wrap;
+color: #999;
+}
+
+.legal__links {
+display: flex;
+align-items: center;
+}
+
+.heart {
+color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+.legal .legal__links {
+  margin-left: auto;
+}
+}
+
+@media screen and (min-width: 40.375em) {
+.footer__nav > * {
+  flex: 1;
+}
+
+.nav__item--extra {
+  flex-grow: 2;
+}
+
+.footer__addr {
+  flex: 1 0px;
+}
+
+.footer__nav {
+  flex: 2 0px;
+}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+    <section id="page-2">
+        <button type="button" id="page-2-btn">Projects</button>
+        <h1>Projects</h1>
+        <div class="box-1">
+            <div class="btn btn-one">
+                 <a href="Contact.html">projects</a>
+            </div>
+                </div>
+
+    </section> -->
+
+
+
+
+
+    <!-- <section id="page-3">
+        <div class="project-1">
+            <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_02.jpg" alt=""> 
+        </div>
+        <div class="project-2">
+            <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_03.jpg" alt="">
+        </div>
+        <div class="project-3">
+            <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_03.jpg" alt="">
+        </div>
+        <div class="project-4">
+            <img src="images/23.100_20_Silvan_TCE_-_Preplanning_package_240630[1]_Page_04.jpg" alt="">
+        </div>
+    
+
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+    <!-- <section>
+        <div class="container-1">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/12.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Ali Karimi</br>
+                    <span>Bikar</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/18.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>RAHILA KARIMI</br>
+                    <span>Bikar</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="images/774.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>FATIMA KARIMI</br>
+                    <span>Bikar</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>   -->
+
+ 
+
+      
+        
+</body>
+</html>

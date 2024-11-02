@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Rocker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Grey+Qo&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Grey+Qo&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=New+Rocker&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="container-background">
+
+        <div class="nav">
+            <div class="logo">
+              <h1>ALI STUDIO DESIGN</h1>
+          </div>
+          <div class="links">
+              <ul>
+                  <li>
+                      <a href="index1.html"> Home</a>
+                      <a href="projects.html">Projects</a>
+                      <a href="senstive.html">Being Sensitive</a>
+                      <a href="team.html">Studio</a>
+                      <a href="slider.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          </div>
+
+
+
+
+
+
+        <div class="background">
+            <div class="container">
+
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +61 466 835 311</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" >
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL">
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+   
+
+
+       <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.container-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/blending-futuristic-building-seamlessly-into-desert-landscape.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.logo h1{ 
+    color: white;
+    padding: 10px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.links{
+    display: flex;
+    margin-left: 37%;
+}
+.links ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.5s;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+}
+.links ul li {
+    list-style-type: none;
+}
+.links ul li a:hover {
+    color: black;
+}
+
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+  min-height: 80vh;
+  padding-left: 600px;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #3e3e3e;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+.screen-header-button.close {
+  background: #1cc0ed;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: white;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #ffffff;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #e4e2e2;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #000000;
+}
+
+
+
+
+
+.dribbble {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+
+
+
+       </style>
+
+
+
+
+
+    <script>
+        function addClass() {
+  document.body.classList.add("sent");
+}
+
+sendLetter.addEventListener("click", addClass);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">ALI Design Studio</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      3 Valencia CCT Cranbourne VIC 3977. 0466 835 311<br>
+          
+      <a class="footer__btn" href="mailto:karimi.aa202@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        <li>
+          <a href="#">Print</a>
+        </li>
+            
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Hardware Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Software Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+        
+        <li>
+          <a href="#">Automation</a>
+        </li>
+        
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        
+        <li>
+          <a href="#">IoT</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2024 Ali Design Studio. All rights reserved.</p>
+    
+    <div class="legal__links">
+   
+    </div>
+  </div>
+</footer>
+
+
+<style>
+  *, *:before, *:after {
+box-sizing: border-box;
+}
+
+.footer {
+  font-family: acumin-pro, system-ui, sans-serif;
+display: flex;
+flex-flow: row wrap;
+padding: 30px 30px 20px 30px;
+color: #2f2f2f;
+background-color: #fff;
+border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+flex:  1 100%;
+}
+
+.footer__addr {
+margin-right: 1.25em;
+margin-bottom: 2em;
+}
+
+.footer__logo {
+font-family: 'Pacifico', cursive;
+font-weight: 400;
+text-transform: lowercase;
+font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+margin-top: 1.3em;
+font-size: 15px;
+font-weight: 400;
+}
+
+.nav__title {
+font-weight: 400;
+font-size: 15px;
+}
+
+.footer address {
+font-style: normal;
+color: #999;
+}
+
+.footer__btn {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 36px;
+max-width: max-content;
+background-color: rgb(33, 33, 33, 0.07);
+border-radius: 100px;
+color: #2f2f2f;
+line-height: 0;
+margin: 0.6em 0;
+font-size: 1rem;
+padding: 0 1.3em;
+}
+
+.footer ul {
+list-style: none;
+padding-left: 0;
+}
+
+.footer li {
+line-height: 2em;
+}
+
+.footer a {
+text-decoration: none;
+}
+
+.footer__nav {
+display: flex;
+flex-flow: row wrap;
+}
+
+.footer__nav > * {
+flex: 1 50%;
+margin-right: 1.25em;
+}
+
+.nav__ul a {
+color: #999;
+}
+
+.nav__ul--extra {
+column-count: 2;
+column-gap: 1.25em;
+}
+
+.legal {
+display: flex;
+flex-wrap: wrap;
+color: #999;
+}
+
+.legal__links {
+display: flex;
+align-items: center;
+}
+
+.heart {
+color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+.legal .legal__links {
+  margin-left: auto;
+}
+}
+
+@media screen and (min-width: 40.375em) {
+.footer__nav > * {
+  flex: 1;
+}
+
+.nav__item--extra {
+  flex-grow: 2;
+}
+
+.footer__addr {
+  flex: 1 0px;
+}
+
+.footer__nav {
+  flex: 2 0px;
+}
+}
+</style>
+
+
+
+</body>
+</html>
